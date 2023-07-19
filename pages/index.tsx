@@ -108,15 +108,6 @@ const Home: NextPage = () => {
         
 
 
-      <a
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/guaguaguaxia/weekly_report"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Github />
-          <p>Star on GitHub</p>
-        </a>
 
 
 
@@ -191,19 +182,14 @@ const Home: NextPage = () => {
           <div className="mt-1 items-center space-x-3">
             <span className="text-slate-200">
                 {t('privacyPolicy1')}
-              <a
-                className="text-blue-200 hover:text-blue-400"
-                href="https://github.com/guaguaguaxia/weekly_report/blob/main/privacy.md"
-                target="_blank"
-                rel="noopener noreferrer"
-              >{' '}{t('privacyPolicy2')}</a>
+
             </span>
             <br></br>
-            
+
 
 
             <br/>
-            <p className="text-slate-500" style={{textAlign: "center"}}>由于费用过高，本站一分钟内仅接受 20 次请求，迟迟不能生成周报是因为暂时限流，请收藏此网站后在低峰期使用。有任何问题请联系我的邮箱 guaguaguaxia@Gmail.com，我会一一回复。</p>
+            <p className="text-slate-500" style={{textAlign: "center"}}>使用人数较多有时会慢，如刷新没反应，请加群反馈。欢迎加群交流，一起同行。</p>
 
           </div>
         </div>
